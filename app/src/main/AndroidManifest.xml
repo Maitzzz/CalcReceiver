@@ -18,6 +18,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <receiver android:name="CalcReceiver">
+            <intent-filter>
+                <action android:name="com.mait.calculator.CALCULATE" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

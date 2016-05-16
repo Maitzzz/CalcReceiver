@@ -12,7 +12,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 
 
-public class MyReceiver extends BroadcastReceiver {
+public class CalcReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
         if (isOrderedBroadcast()) {
